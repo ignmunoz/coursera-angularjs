@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Assigment 4</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body ng-app="MenuApp">
+	
+	<div class="jumbotron">
+		<h1 class="text-center">Welcome to our Restaurant!</h1>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<ui-view></ui-view>	
+		</div>
+	</div>
+	
+	<!-- Libraries -->
+	<script src="lib/angular.min.js"></script>
+	<script src="lib/angular-ui-router.min.js"></script>
+
+	<!-- Modules -->
+	<script src="src/common/data.module.js"></script>
+	<script src="src/common/menuapp.module.js"></script>
+	
+
+	<!-- Routes -->
+	<script src="src/public/routes.js"></script>
+
+	<!-- MenuApp module artifacts -->
+	<script src="src/public/categories/categories.component.js"></script>
+	<script src="src/public/categories/categories.controller.js"></script>
+	<script src="src/public/items/items.component.js"></script>
+	<script src="src/public/category-items/category-items.controller.js"></script>
+	<script src="src/common/menudata.service.js"></script>
+	
+	
+
+</body>
+</html>
