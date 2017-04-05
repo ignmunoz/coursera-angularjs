@@ -1,0 +1,64 @@
+<div class="container">
+	<fieldset>
+		<legend class="restaurant-legend">Registration</legend>
+		<form name="signupForm" class="form-horizontal" novalidate>
+			<div class="form-group">
+				<div class="col-sm-2">
+					<label for="firstName">First Name</label>	
+				</div>
+				<div class="col-sm-10">
+					<input type="text" name="firstName" ng-model="signupCtrl.user.firstName" required minlength="3">
+					<span ng-if="(signupForm.firstName.$error.minlength || signupForm.firstName.$error.required) && signupForm.firstName.$touched">First Name must be at least 3 characters</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-2">
+					<label for="lastName">Last Name</label>
+				</div>
+				<div class="col-sm-10">
+					<input type="text" name="lastName" ng-model="signupCtrl.user.lastName" required minlength="3">
+					<span ng-if="(signupForm.lastName.$error.minlength || signupForm.lastName.$error.required) && signupForm.lastName.$touched">Last Name must be at least 3 characters</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-2">
+					<label for="email">Email</label>
+				</div>
+				<div class="col-sm-10">
+					<input type="email" name="email" ng-model="signupCtrl.user.email" required>
+					<span ng-if="signupForm.email.$invalid && signupForm.email.$touched">Must be a valid email address: handle@domain format</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-2">
+					<label for="phone">Phone Number</label>
+				</div>
+				<div class="col-sm-10">
+					<input type="text" name="phone" placeholder="Format: ##-#######" ng-model="signupCtrl.user.phone" pattern="(\d{2})-(\d{7})">
+					<span ng-if="signupForm.phone.$invalid && signupForm.phone.$touched">Phone must be in format ##-#######</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-2">
+					<label for="favoriteDish">Menu number of your favorite dish</label>
+				</div>
+				<div class="col-sm-10">
+					<input type="text" name="favoriteDish" placeholder="e.g. A1, L2, D3..." ng-model="signupCtrl.user.favoriteDish" required favorite-dish>
+					<span ng-if="signupForm.favoriteDish.$pending">Verifying menu item...</span>
+					<span ng-if="signupForm.favoriteDish.$valid">MENU FOUND!</span>
+					<span ng-if="signupForm.favoriteDish.$error.favoriteDish || signupForm.favoriteDish.$touched.favoriteDish">No such menu number exists</span>
+				</div>
+			</div>
+			<div class="col-sm-offset-2 col-sm-10">
+				<button class="btn btn-default" ng-disabled="signupForm.$invalid || signupForm.favoriteDish.$pending" ng-click="signupCtrl.signup()">Submit</button>
+			</div>
+		</form>
+	</fieldset>
+	
+	<hr>
+
+	<div class="col-sm-offset-2 col-sm-10">
+		<p ng-if="signupCtrl.error.length > 0">{{signupCtrl.error}}</p>
+		<p ng-if="signupCtrl.success.length > 0">{{signupCtrl.success}}</p>
+	</div>
+</div>
