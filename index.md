@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-<a href="{{site.baseurl}}/module1-solution">Assigment 1</a>
+<a class="button" href="{{site.baseurl}}/module1-solution">Assigment 1</a>
