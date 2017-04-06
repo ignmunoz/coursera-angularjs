@@ -1,3 +1,4 @@
 theme: jekyll-theme-architect
-baseurl: https://ignmunoz.github.io/coursera-angularjs/
+url: https://ignmunoz.github.io
+baseurl: /coursera-angularjs
 exclude: ['README.md']
