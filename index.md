@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-<a href="{{ site.url }}">
+<a href="https://ignmunoz.github.io/coursera-angularjs/">home</a>
