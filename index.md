@@ -1,5 +1,4 @@
 ---
 layout: default
 ---
-
-<a href="/">home</a>
+<a href="{{ site.url }}">
