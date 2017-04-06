@@ -1,6 +1,6 @@
 ---
 layout: default
 ---
-<h1>
+<h2>
   <a href="{{site.baseurl}}/module1-solution">Assignment 1</a>
-</h1>
+</h2>
