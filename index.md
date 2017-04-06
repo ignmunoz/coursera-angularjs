@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-
-<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Test</title>
@@ -10,4 +8,4 @@ layout: default
 <body>
 	<h1>Hello!</h1>
 </body>
-</html>
+
