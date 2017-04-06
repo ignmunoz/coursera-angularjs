@@ -1,4 +1,5 @@
 theme: jekyll-theme-architect
 url: https://ignmunoz.github.io
+title: Restaurant webapp built in AngularJS 1 | Github
 baseurl: /coursera-angularjs
 exclude: ['README.md']
