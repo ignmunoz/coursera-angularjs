@@ -4,7 +4,8 @@
 @import "{{ site.theme }}";
 
 #main-content p {
-  margin: 20px;
+  display: block;
+  margin-bottom:20px;
 }
 
 #main-content a {
