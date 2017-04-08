@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="title">## WIP</div>
+<div class="title">WIP</div>
 
 
 <p>
