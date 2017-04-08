@@ -3,17 +3,31 @@
 
 @import "{{ site.theme }}";
 
-#main-content .title, {
-  margin-bottom: 50px;
-}
-
 #main-content #wip {
   margin-bottom: 38px;
 }
 
-#main-content p {
+#main-content .title, #main-content p {
   display: block;
   margin-bottom: 50px;
+}
+
+#main-content h1.title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 2.8em;
+    font-weight: normal;
+    color: #474747;
+    text-indent: 6px;
+    letter-spacing: -1px;
+}
+
+#main-content h1.title::before {
+    padding-right: 0.3em;
+    margin-left: -0.9em;
+    color: #9ddcff;
+    content: "/";
 }
 
 #main-content a {
