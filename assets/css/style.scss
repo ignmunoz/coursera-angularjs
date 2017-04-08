@@ -3,12 +3,12 @@
 
 @import "{{ site.theme }}";
 
-.title {
+#main-content .title, {
   margin-bottom: 50px;
 }
 
-#wip {
-  margin: 38px;
+#main-content #wip {
+  margin-bottom: 38px;
 }
 
 #main-content p {
