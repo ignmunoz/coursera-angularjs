@@ -3,8 +3,12 @@
 
 @import "{{ site.theme }}";
 
+.title {
+  margin-bottom: 50px;
+}
+
 #wip {
-  margin-bottom: 38px;
+  margin: 38px;
 }
 
 #main-content p {
