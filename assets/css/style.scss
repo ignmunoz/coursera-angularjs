@@ -12,7 +12,7 @@
   margin-bottom: 50px;
 }
 
-#main-content h1.title {
+#main-content .title {
     margin-top: 0;
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
     font-size: 2.8em;
@@ -22,7 +22,7 @@
     letter-spacing: -1px;
 }
 
-#main-content h1.title::before {
+#main-content .title::before {
     padding-right: 0.3em;
     margin-left: -0.9em;
     color: #9ddcff;
