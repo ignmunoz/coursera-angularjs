@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="title">WIP</div>
 
-
+<div class="row">
 <p>
   <a class="button" href="{{site.baseurl}}/module1-solution">Assignment 1</a>
 </p>
@@ -19,4 +19,6 @@ layout: default
 <p>
 <a class="button" href="{{site.baseurl}}/module5-solution">Assignment 5</a>
 </p>
+
+</div>
 
