@@ -4,9 +4,11 @@ layout: default
 <div class="title">WIP</div>
 
 <div class="row">
+  <div class="col-1-2">
 <p>
   <a class="button" href="{{site.baseurl}}/module1-solution">Assignment 1</a>
 </p>
+</div>
 <p>
   <a class="button" href="{{site.baseurl}}/module2-solution">Assignment 2</a>
 </p>
