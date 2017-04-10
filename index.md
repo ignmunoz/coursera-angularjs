@@ -5,9 +5,7 @@ layout: default
 
 <div class="row">
   <div class="col-1-2">
-    <p>
-      <a class="button" href="{{site.baseurl}}/module1-solution">Assignment 1</a>
-    </p>
+    <a class="button" href="{{site.baseurl}}/module1-solution">Assignment 1</a>
   </div>
   <div class="col-1-2">
     <p>
