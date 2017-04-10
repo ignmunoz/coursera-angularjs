@@ -86,6 +86,8 @@
 }
 
 #main-content a.button:hover {
-    background-color: #4CAF50;
+    background-color: /*#4CAF50*/#2f9296;
     color: white;
+    border-radius: 1px;
+    border-color: white;
 }
