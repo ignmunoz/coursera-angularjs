@@ -81,4 +81,11 @@
     height: auto;
     text-align: center;
     line-height: 2.5;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#main-content a.button:hover {
+    background-color: #4CAF50;
+    color: white;
 }
