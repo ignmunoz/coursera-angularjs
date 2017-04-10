@@ -22,7 +22,7 @@
   padding-right: 15px;
 }
 
-/*@media (min-width: 48em) {
+@media (min-width: 48em) {
   [class*='col-'] {
     float: left;
   }
@@ -38,7 +38,8 @@
   .col-1-2 {
     width: 50%;
   }
-}*/
+}
+
 @media (min-width: 48em) {
   .pull-right-sm {
     float: right;
