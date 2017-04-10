@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 .row {
   margin-right: -15px;
   margin-left: -15px;
