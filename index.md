@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# WIP
+# Click on a button to go to the respective module's assignment
 
 <div class="row">
   <div class="col-1-3">
