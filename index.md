@@ -3,6 +3,7 @@ layout: default
 ---
 ## Click on a button to go to the respective module's assignment
 
+
 <div class="row">
   <div class="col-1-3">
     <a class="button" href="{{site.baseurl}}/module1-solution">Assignment 1</a>
