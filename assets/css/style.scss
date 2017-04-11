@@ -94,3 +94,8 @@
     color: #000;
     border-radius: 1px;
 }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    margin-left: 12px;
+    margin-right: 12px;
+}
